@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ELearningPlatform>
+    <Courses>
+        <Course id="C001">
+            <Name>C++</Name>
+            <Description>Comprehensive C++ programming course.</Description>
+            <Tests>
+                <Test id="T001" type="Mid">
+                    <TotalMarks>100</TotalMarks>
+                </Test>
+                <Test id="T002" type="Final">
+                    <TotalMarks>100</TotalMarks>
+                </Test>
+            </Tests>
+        </Course>
+        <Course id="C002">
+            <Name>Java</Name>
+            <Description>Core Java programming course.</Description>
+            <Tests>
+                <Test id="T010" type="Mid"/>
+                <Test id="T011" type="Final"/>
+            </Tests>
+        </Course>
+        <Course id="C003">
+            <Name>Python</Name>
+            <Description>Python basics to advanced concepts.</Description>
+            <Tests>
+                <Test id="T020" type="Mid"/>
+                <Test id="T021" type="Final"/>
+            </Tests>
+        </Course>
+    </Courses>
+    <Students>
+        <Student id="S001">
+            <Username>Raj1</Username>
+            <Password>Raj1</Password>
+            <Email>raj123@yahoo.com</Email>
+            <Phone>1234567890</Phone>
+            <Address>GUNTUR</Address>
+            <RegisteredCourses>
+                <CourseRegistration courseId="C001">
+                    <RegistrationDate>2025-11-27</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T001" attempt="1">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T002" attempt="1">
+                            <Score>25</Score>
+                            <Result>Fail</Result>
+                            <Grade>F</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+                <CourseRegistration courseId="C002">
+                    <RegistrationDate>2025-12-07</RegistrationDate>
+                    <TestRegistrations/>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+            </RegisteredCourses>
+        </Student>
+        <!-- other students -->
+        <Student id="S002">
+            <Username>Nams</Username>
+            <Password>Nams1</Password>
+            <Email>nams@example.com</Email>
+            <Phone>9123456780</Phone>
+            <Address>D,No.- 20-2-18/A; Srininvasanagar, Gurunnak colony, Vijayawada</Address>
+            <RegisteredCourses/>
+        </Student>
+        <!-- keep the rest of your students; ensure each Student has Email, Phone & Address tags -->
+        <Student id="S004">
+            <Username>Lucky</Username>
+            <Email>lucky@gmail.com</Email>
+            <Phone>1234567890</Phone>
+            <Address>Gollapudi</Address>
+            <Password>Lak</Password>
+            <RegisteredCourses>
+                <CourseRegistration courseId="C001">
+                    <RegistrationDate>2025-12-07</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T001" attempt="1">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T002" attempt="1">
+                            <Score>25</Score>
+                            <Result>Fail</Result>
+                            <Grade>F</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T002" attempt="2">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Issued</Status>
+                        <IssueDate>2025-12-07</IssueDate>
+                    </Certificate>
+                </CourseRegistration>
+                <CourseRegistration courseId="C002">
+                    <RegistrationDate>2025-12-07</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T010" attempt="1">
+                            <Score>25</Score>
+                            <Result>Fail</Result>
+                            <Grade>F</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+            </RegisteredCourses>
+        </Student>
+        <Student id="S005">
+            <Username>Renu</Username>
+            <Password>Renu1</Password>
+            <RegisteredCourses>
+                <CourseRegistration courseId="C001">
+                    <RegistrationDate>2025-12-07</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T001" attempt="1">
+                            <Score>0</Score>
+                            <Result>Fail</Result>
+                            <Grade>F</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+            </RegisteredCourses>
+        </Student>
+    </Students>
+</ELearningPlatform>

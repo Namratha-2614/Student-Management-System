@@ -1,0 +1,10 @@
+release/admindb.o
+release/dashboard.o
+release/main.o
+release/mainwindow.o
+release/testpaper.o
+release/tinyxml2.o
+release/moc_admindb.o
+release/moc_dashboard.o
+release/moc_mainwindow.o
+release/moc_testpaper.o

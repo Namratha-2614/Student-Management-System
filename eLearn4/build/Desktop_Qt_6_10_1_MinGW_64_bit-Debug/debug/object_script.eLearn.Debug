@@ -1,0 +1,10 @@
+debug/admindb.o
+debug/dashboard.o
+debug/main.o
+debug/mainwindow.o
+debug/testpaper.o
+debug/tinyxml2.o
+debug/moc_admindb.o
+debug/moc_dashboard.o
+debug/moc_mainwindow.o
+debug/moc_testpaper.o

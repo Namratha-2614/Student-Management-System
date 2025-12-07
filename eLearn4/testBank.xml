@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestBank>
+  <Course name="C++">
+    <Test id="cpp_basic" name="C++ Basics">
+      <Questions>
+        <Question id="1" text="Which of the following is used to create an object in C++?">
+          <Option tag="A">new</Option>
+          <Option tag="B">malloc</Option>
+          <Option tag="C">create</Option>
+          <Option tag="D">construct</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="2" text="Which keyword is used to define a constant value in C++?">
+          <Option tag="A">let</Option>
+          <Option tag="B">const</Option>
+          <Option tag="C">constexpr</Option>
+          <Option tag="D">static</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="3" text="Which operator is used to access members of a class via a pointer?">
+          <Option tag="A">.</Option>
+          <Option tag="B">::</Option>
+          <Option tag="C">-></Option>
+          <Option tag="D">*</Option>
+          <Answer>C</Answer>
+        </Question>
+
+        <Question id="4" text="Which of the following is not a C++ access specifier?">
+          <Option tag="A">public</Option>
+          <Option tag="B">private</Option>
+          <Option tag="C">protected</Option>
+          <Option tag="D">friend</Option>
+          <Answer>D</Answer>
+        </Question>
+
+        <Question id="5" text="What does RAII stand for in C++?">
+          <Option tag="A">Resource Acquisition Is Initialization</Option>
+          <Option tag="B">Runtime Allocation Is Initialization</Option>
+          <Option tag="C">Resource Assignment Inheritance Idiom</Option>
+          <Option tag="D">Request Allocation Immediately</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="6" text="Which header is required for std::vector?">
+          <Option tag="A">#include &lt;list&gt;</Option>
+          <Option tag="B">#include &lt;array&gt;</Option>
+          <Option tag="C">#include &lt;vector&gt;</Option>
+          <Option tag="D">#include &lt;deque&gt;</Option>
+          <Answer>C</Answer>
+        </Question>
+
+        <Question id="7" text="Which of these is correct syntax for a template function?">
+          <Option tag="A">template &lt;class T&gt; T max(T a, T b);</Option>
+          <Option tag="B">template (class T) T max(T a, T b);</Option>
+          <Option tag="C">template &lt;typename T&gt; max(T a, T b);</Option>
+          <Option tag="D">template &lt;T&gt; T max(T a, T b);</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="8" text="Which keyword indicates that a member function does not modify the object?">
+          <Option tag="A">immutable</Option>
+          <Option tag="B">const</Option>
+          <Option tag="C">volatile</Option>
+          <Option tag="D">readonly</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="9" text="What will the expression (5/2) evaluate to in C++ if both are integers?">
+          <Option tag="A">2.5</Option>
+          <Option tag="B">2</Option>
+          <Option tag="C">3</Option>
+          <Option tag="D">Compiler error</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="10" text="Which is the correct way to declare a destructor?">
+          <Option tag="A">~ClassName()</Option>
+          <Option tag="B">delete ClassName()</Option>
+          <Option tag="C">ClassName::~()</Option>
+          <Option tag="D">destruct ClassName()</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="11" text="Which STL container provides key-value mapping?">
+          <Option tag="A">std::vector</Option>
+          <Option tag="B">std::map</Option>
+          <Option tag="C">std::list</Option>
+          <Option tag="D">std::stack</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="12" text="What does the 'virtual' keyword enable?">
+          <Option tag="A">Compile-time binding</Option>
+          <Option tag="B">Runtime polymorphism</Option>
+          <Option tag="C">Faster execution</Option>
+          <Option tag="D">Memory allocation</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="13" text="Which of the following throws an exception by default when allocation fails (in standard conforming C++)?">
+          <Option tag="A">malloc</Option>
+          <Option tag="B">new</Option>
+          <Option tag="C">calloc</Option>
+          <Option tag="D">realloc</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="14" text="Which header provides std::unique_ptr?">
+          <Option tag="A">&lt;memory&gt;</Option>
+          <Option tag="B">&lt;ptr&gt;</Option>
+          <Option tag="C">&lt;smart&gt;</Option>
+          <Option tag="D">&lt;utility&gt;</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="15" text="What is function overloading?">
+          <Option tag="A">Multiple functions in different classes with same name</Option>
+          <Option tag="B">Different functions in same scope with same name but different parameters</Option>
+          <Option tag="C">Same function name and parameters in different files</Option>
+          <Option tag="D">Two functions with same return type</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="16" text="Which of these is a C++11 feature?">
+          <Option tag="A">auto type deduction</Option>
+          <Option tag="B">goto statements</Option>
+          <Option tag="C">implicit int</Option>
+          <Option tag="D">trigraphs</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="17" text="Which operator can be overloaded?">
+          <Option tag="A">sizeof</Option>
+          <Option tag="B">.: (member pointer-to-member)</Option>
+          <Option tag="C">+</Option>
+          <Option tag="D">?: (ternary)</Option>
+          <Answer>C</Answer>
+        </Question>
+
+        <Question id="18" text="Which is the correct way to include the iostream header?">
+          <Option tag="A">#include &lt;iostream.h&gt;</Option>
+          <Option tag="B">#include &lt;iostream&gt;</Option>
+          <Option tag="C">#include &lt;io&gt;</Option>
+          <Option tag="D">#include &lt;iostream++.h&gt;</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="19" text="What is the output type of std::cout &lt;&lt; 5;?">
+          <Option tag="A">It prints 5 to standard output</Option>
+          <Option tag="B">It returns a bool</Option>
+          <Option tag="C">It returns an int</Option>
+          <Option tag="D">It throws an exception</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="20" text="Which statement about references is true?">
+          <Option tag="A">A reference can be reseated to another object.</Option>
+          <Option tag="B">A reference must be initialized when declared.</Option>
+          <Option tag="C">References can be NULL.</Option>
+          <Option tag="D">References and pointers are identical.</Option>
+          <Answer>B</Answer>
+        </Question>
+      </Questions>
+    </Test>
+  </Course>
+
+  <Course name="Python">
+    <Test id="python_basic" name="Python Basics">
+      <Questions>
+        <Question id="1" text="Which statement creates a list in Python?">
+          <Option tag="A">()</Option>
+          <Option tag="B">[]</Option>
+          <Option tag="C">{}</Option>
+          <Option tag="D">&lt;&gt;</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="2" text="How do you start a function definition in Python?">
+          <Option tag="A">function name():</Option>
+          <Option tag="B">def name():</Option>
+          <Option tag="C">func name():</Option>
+          <Option tag="D">define name():</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="3" text="What is the output of: len('hello')?">
+          <Option tag="A">4</Option>
+          <Option tag="B">5</Option>
+          <Option tag="C">6</Option>
+          <Option tag="D">Error</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="4" text="Which keyword handles exceptions?">
+          <Option tag="A">try/except</Option>
+          <Option tag="B">catch/throw</Option>
+          <Option tag="C">handle</Option>
+          <Option tag="D">error</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="5" text="Which of these is immutable?">
+          <Option tag="A">list</Option>
+          <Option tag="B">dict</Option>
+          <Option tag="C">set</Option>
+          <Option tag="D">tuple</Option>
+          <Answer>D</Answer>
+        </Question>
+
+        <Question id="6" text="How do you import a module named math?">
+          <Option tag="A">include math</Option>
+          <Option tag="B">import math</Option>
+          <Option tag="C">using math</Option>
+          <Option tag="D">require math</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="7" text="Which method adds an item to the end of a list?">
+          <Option tag="A">append()</Option>
+          <Option tag="B">add()</Option>
+          <Option tag="C">push()</Option>
+          <Option tag="D">insert()</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="8" text="Which comprehension creates a list of squares for x in range(5)?">
+          <Option tag="A">[x^2 for x in range(5)]</Option>
+          <Option tag="B">[x*x for x in range(5)]</Option>
+          <Option tag="C">{x*x for x in range(5)}</Option>
+          <Option tag="D">(x*x for x in range(5))</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="9" text="What does '==' compare?">
+          <Option tag="A">Identity</Option>
+          <Option tag="B">Equality of values</Option>
+          <Option tag="C">Type only</Option>
+          <Option tag="D">Both identity and type</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="10" text="Which statement creates a dictionary?">
+          <Option tag="A">[]</Option>
+          <Option tag="B">()</Option>
+          <Option tag="C">{'a':1,'b':2}</Option>
+          <Option tag="D">&lt;1,2&gt;</Option>
+          <Answer>C</Answer>
+        </Question>
+
+        <Question id="11" text="Which built-in converts a string to an integer?">
+          <Option tag="A">int()</Option>
+          <Option tag="B">str()</Option>
+          <Option tag="C">float()</Option>
+          <Option tag="D">num()</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="12" text="What is the result of True and False?">
+          <Option tag="A">True</Option>
+          <Option tag="B">False</Option>
+          <Option tag="C">1</Option>
+          <Option tag="D">0</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="13" text="How do you write a comment in Python?">
+          <Option tag="A">// comment</Option>
+          <Option tag="B"># comment</Option>
+          <Option tag="C">/* comment */</Option>
+          <Option tag="D">&lt;!-- comment --&gt;</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="14" text="Which statement will check membership in a list?">
+          <Option tag="A">if x in mylist:</Option>
+          <Option tag="B">if in x mylist:</Option>
+          <Option tag="C">if mylist.contains(x):</Option>
+          <Option tag="D">if x has mylist:</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="15" text="Which built-in function returns type of an object?">
+          <Option tag="A">typeof()</Option>
+          <Option tag="B">type()</Option>
+          <Option tag="C">class()</Option>
+          <Option tag="D">kind()</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="16" text="How do you open a file for writing?">
+          <Option tag="A">open('file','r')</Option>
+          <Option tag="B">open('file','w')</Option>
+          <Option tag="C">file.open('file')</Option>
+          <Option tag="D">open.write('file')</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="17" text="Which of these is a Python web framework?">
+          <Option tag="A">Django</Option>
+          <Option tag="B">Spring</Option>
+          <Option tag="C">Rails</Option>
+          <Option tag="D">Laravel</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="18" text="To create an empty set you use:">
+          <Option tag="A">{} (empty braces)</Option>
+          <Option tag="B">set()</Option>
+          <Option tag="C">[]</Option>
+          <Option tag="D">()</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="19" text="Which operator is used for exponentiation?">
+          <Option tag="A">^</Option>
+          <Option tag="B">**</Option>
+          <Option tag="C">pow()</Option>
+          <Option tag="D">exp()</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="20" text="Which loop iterates over items of a sequence?">
+          <Option tag="A">for</Option>
+          <Option tag="B">while</Option>
+          <Option tag="C">do-while</Option>
+          <Option tag="D">repeat</Option>
+          <Answer>A</Answer>
+        </Question>
+      </Questions>
+    </Test>
+  </Course>
+
+  <Course name="Java">
+    <Test id="java_basic" name="Java Basics">
+      <Questions>
+        <Question id="1" text="Which keyword is used to define a class in Java?">
+          <Option tag="A">class</Option>
+          <Option tag="B">struct</Option>
+          <Option tag="C">object</Option>
+          <Option tag="D">define</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="2" text="Which of these is not a Java primitive type?">
+          <Option tag="A">int</Option>
+          <Option tag="B">String</Option>
+          <Option tag="C">double</Option>
+          <Option tag="D">boolean</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="3" text="What is the entry point method signature for a Java application?">
+          <Option tag="A">public static void main(String[] args)</Option>
+          <Option tag="B">public void main()</Option>
+          <Option tag="C">static main()</Option>
+          <Option tag="D">private static void main()</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="4" text="Which package contains ArrayList?">
+          <Option tag="A">java.util</Option>
+          <Option tag="B">java.lang</Option>
+          <Option tag="C">java.io</Option>
+          <Option tag="D">java.net</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="5" text="Which keyword is used for inheritance?">
+          <Option tag="A">implements</Option>
+          <Option tag="B">extends</Option>
+          <Option tag="C">inherits</Option>
+          <Option tag="D">super</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="6" text="Which is used to handle exceptions?">
+          <Option tag="A">try/catch</Option>
+          <Option tag="B">if/else</Option>
+          <Option tag="C">throw/catch</Option>
+          <Option tag="D">handle</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="7" text="Which of following creates a thread by extending Thread class?">
+          <Option tag="A">Implement Runnable</Option>
+          <Option tag="B">Extend Thread and override run()</Option>
+          <Option tag="C">Use ExecutorService only</Option>
+          <Option tag="D">Use ProcessBuilder</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="8" text="What is the default value of an object reference instance variable?">
+          <Option tag="A">0</Option>
+          <Option tag="B">null</Option>
+          <Option tag="C">undefined</Option>
+          <Option tag="D">empty string</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="9" text="Which collection class allows duplicate elements and maintains insertion order?">
+          <Option tag="A">HashSet</Option>
+          <Option tag="B">TreeSet</Option>
+          <Option tag="C">ArrayList</Option>
+          <Option tag="D">HashMap</Option>
+          <Answer>C</Answer>
+        </Question>
+
+        <Question id="10" text="Which access modifier allows visibility within the same package?">
+          <Option tag="A">private</Option>
+          <Option tag="B">public</Option>
+          <Option tag="C">protected</Option>
+          <Option tag="D">(default) package-private</Option>
+          <Answer>D</Answer>
+        </Question>
+
+        <Question id="11" text="Which keyword prevents a method from being overridden?">
+          <Option tag="A">static</Option>
+          <Option tag="B">final</Option>
+          <Option tag="C">native</Option>
+          <Option tag="D">synchronized</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="12" text="Which interface must be implemented to use Collections.sort with a custom comparator?">
+          <Option tag="A">Comparable</Option>
+          <Option tag="B">Comparator</Option>
+          <Option tag="C">Iterable</Option>
+          <Option tag="D">Runnable</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="13" text="Which statement about JVM is true?">
+          <Option tag="A">JVM compiles source code to bytecode</Option>
+          <Option tag="B">JVM interprets bytecode and runs it</Option>
+          <Option tag="C">JVM is same as JRE</Option>
+          <Option tag="D">JVM stands for Java Web Module</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="14" text="Which operator compares references for equality?">
+          <Option tag="A">==</Option>
+          <Option tag="B">equals()</Option>
+          <Option tag="C">compareTo()</Option>
+          <Option tag="D">match()</Option>
+          <Answer>A</Answer>
+        </Question>
+
+        <Question id="15" text="Which statement creates an immutable list in Java 9+?">
+          <Option tag="A">Arrays.asList()</Option>
+          <Option tag="B">List.of()</Option>
+          <Option tag="C">new ArrayList()</Option>
+          <Option tag="D">Collections.mutableList()</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="16" text="Which exception is thrown for accessing array index out of bounds?">
+          <Option tag="A">IndexOutOfBoundsException</Option>
+          <Option tag="B">ArrayIndexOutOfBoundsException</Option>
+          <Option tag="C">NullPointerException</Option>
+          <Option tag="D">IllegalArgumentException</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="17" text="Which package is implicitly imported in every Java program?">
+          <Option tag="A">java.util</Option>
+          <Option tag="B">java.lang</Option>
+          <Option tag="C">java.io</Option>
+          <Option tag="D">javax.swing</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="18" text="What is the purpose of the 'synchronized' keyword?">
+          <Option tag="A">Make method static</Option>
+          <Option tag="B">Enforce thread-safety for critical sections</Option>
+          <Option tag="C">Optimize method performance</Option>
+          <Option tag="D">Prevent exceptions</Option>
+          <Answer>B</Answer>
+        </Question>
+
+        <Question id="19" text="Which method is used to start a thread once it's created?">
+          <Option tag="A">run()</Option>
+          <Option tag="B">execute()</Option>
+          <Option tag="C">start()</Option>
+          <Option tag="D">begin()</Option>
+          <Answer>C</Answer>
+        </Question>
+
+        <Question id="20" text="Which keyword is used to create an object of a class?">
+          <Option tag="A">new</Option>
+          <Option tag="B">make</Option>
+          <Option tag="C">create</Option>
+          <Option tag="D">construct</Option>
+          <Answer>A</Answer>
+        </Question>
+      </Questions>
+    </Test>
+  </Course>
+</TestBank>

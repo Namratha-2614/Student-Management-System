@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ELearningPlatform>
+    <!-- ===================================================== -->
+    <!-- ADMIN SECTION                                         -->
+    <!-- ===================================================== -->
+    <Courses>
+        <Course id="C001">
+            <Name>C++</Name>
+            <Description>Comprehensive C++ programming course.</Description>
+            <Tests>
+                <Test id="T001" type="Mid">
+                    <TotalMarks>100</TotalMarks>
+                </Test>
+                <Test id="T002" type="Final">
+                    <TotalMarks>100</TotalMarks>
+                </Test>
+            </Tests>
+        </Course>
+        <Course id="C002">
+            <Name>Java</Name>
+            <Description>Core Java programming course.</Description>
+            <Tests>
+                <Test id="T010" type="Mid"/>
+                <Test id="T011" type="Final"/>
+            </Tests>
+        </Course>
+        <Course id="C003">
+            <Name>Python</Name>
+            <Description>Python basics to advanced concepts.</Description>
+            <Tests>
+                <Test id="T020" type="Mid"/>
+                <Test id="T021" type="Final"/>
+            </Tests>
+        </Course>
+    </Courses>
+    <!-- ===================================================== -->
+    <!-- STUDENT SECTION (Login will use this part)            -->
+    <!-- ===================================================== -->
+    <Students>
+        <Student id="S001">
+            <Username>Raj</Username>
+            <Password>Raj1</Password>
+            <RegisteredCourses>
+                <CourseRegistration courseId="C001">
+                    <RegistrationDate>2025-11-27</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T001" attempt="1">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T002" attempt="1">
+                            <Score>25</Score>
+                            <Result>Fail</Result>
+                            <Grade>F</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T002" attempt="1">
+                            <Score>25</Score>
+                            <Result>Fail</Result>
+                            <Grade>F</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+                <CourseRegistration courseId="C002">
+                    <RegistrationDate>2025-11-27</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T010" attempt="1">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T011" attempt="1">
+                            <Score>100</Score>
+                            <Result>Pass</Result>
+                            <Grade>A</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Issued</Status>
+                        <IssueDate>2025-11-27</IssueDate>
+                    </Certificate>
+                </CourseRegistration>
+                <CourseRegistration courseId="C003">
+                    <RegistrationDate>2025-11-28</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T020" attempt="1">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Issued</Status>
+                        <IssueDate>2025-12-07</IssueDate>
+                    </Certificate>
+                </CourseRegistration>
+            </RegisteredCourses>
+        </Student>
+        <Student id="S002">
+            <Username>Nams</Username>
+            <Password>Nams1</Password>
+            <RegisteredCourses>
+                <CourseRegistration courseId="C001">
+                    <RegistrationDate>2025-11-27</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T001" attempt="1">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T002" attempt="1">
+                            <Score>50</Score>
+                            <Result>Pass</Result>
+                            <Grade>C</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Issued</Status>
+                        <IssueDate>2025-11-27</IssueDate>
+                    </Certificate>
+                </CourseRegistration>
+                <CourseRegistration courseId="C003">
+                    <RegistrationDate>2025-11-27</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T020" attempt="1">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T021" attempt="1">
+                            <Score>0</Score>
+                            <Result>Fail</Result>
+                            <Grade>F</Grade>
+                        </TestRegistration>
+                        <TestRegistration testId="T021" attempt="2">
+                            <Score>75</Score>
+                            <Result>Pass</Result>
+                            <Grade>B</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Issued</Status>
+                        <IssueDate>2025-11-27</IssueDate>
+                    </Certificate>
+                </CourseRegistration>
+                <CourseRegistration courseId="C002">
+                    <RegistrationDate>2025-11-27</RegistrationDate>
+                    <TestRegistrations/>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+            </RegisteredCourses>
+        </Student>
+        <Student id="S003">
+            <Username>Rp</Username>
+            <Password>Rp1</Password>
+            <RegisteredCourses/>
+        </Student>
+        <Student id="S004">
+            <Username>Manasa</Username>
+            <Password>Manasa12</Password>
+            <RegisteredCourses>
+                <CourseRegistration courseId="C001">
+                    <RegistrationDate>2025-11-28</RegistrationDate>
+                    <TestRegistrations/>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+            </RegisteredCourses>
+        </Student>
+        <Student id="S005">
+            <Username>nvr</Username>
+            <Password>nvr1</Password>
+            <RegisteredCourses>
+                <CourseRegistration courseId="C001">
+                    <RegistrationDate>2025-11-29</RegistrationDate>
+                    <TestRegistrations>
+                        <TestRegistration testId="T001" attempt="1">
+                            <Score>25</Score>
+                            <Result>Fail</Result>
+                            <Grade>F</Grade>
+                        </TestRegistration>
+                    </TestRegistrations>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+                <CourseRegistration courseId="C002">
+                    <RegistrationDate>2025-11-29</RegistrationDate>
+                    <TestRegistrations/>
+                    <Certificate>
+                        <Status>Pending</Status>
+                    </Certificate>
+                </CourseRegistration>
+            </RegisteredCourses>
+        </Student>
+        <Student id="S006">
+            <Username>bhagi</Username>
+            <Password>bhagi1</Password>
+            <RegisteredCourses/>
+        </Student>
+    </Students>
+</ELearningPlatform>
